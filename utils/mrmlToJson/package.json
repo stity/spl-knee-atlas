@@ -1,0 +1,18 @@
+{
+  "name": "tsvToJsonConverter",
+  "version": "1.0.0",
+  "description": "Convert TSV atlas file to a JSON description",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stity/spl-brain-atlas"
+  },
+  "author": "Valentin Demeusy",
+  "bugs": {
+    "url": "https://github.com/stity/spl-brain-atlas/issues"
+  },
+  "devDependencies": {},
+  "dependencies": {
+      "uuid" : ">=2.0.1",
+      "chalk" : ">=1.1.1"
+  }
+}
