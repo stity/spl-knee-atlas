@@ -1,0 +1,1084 @@
+[
+    {
+        "@type": "header",
+        "species": "human",
+        "organ": "knee",
+        "name": "The SPL/NAC Knee Atlas",
+        "license": "?",
+        "citation": "?",
+        "version": "1",
+        "contact": "https://github.com/stity/spl-knee-atlas",
+        "comment": "",
+        "coordinate_system": "self defined"
+    },
+    {
+        "@id": "34857515-ef08-4109-a54a-d3ca09dc58fc",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_20_medial_head_gastrocnemius_muscle.vtk"
+    },
+    {
+        "@id": "c0510470-1c94-402e-b103-99ad7ca98512",
+        "@type": "structure",
+        "annotation": {
+            "name": "medial head gastrocnemius muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "34857515-ef08-4109-a54a-d3ca09dc58fc"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "327b37a3-8072-4c27-bf83-963cd136ce6a",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_21_lateral_head_gastrocnemius_muscle.vtk"
+    },
+    {
+        "@id": "f469ec07-7e0c-404a-b565-cea07f1c6bfb",
+        "@type": "structure",
+        "annotation": {
+            "name": "lateral head gastrocnemius muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "327b37a3-8072-4c27-bf83-963cd136ce6a"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "93dce1d6-3076-45df-af56-6340762bf5d5",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_22_popliteus_muscle.vtk"
+    },
+    {
+        "@id": "0cc2fdd0-08af-4e88-b96b-7e5166754fa8",
+        "@type": "structure",
+        "annotation": {
+            "name": "popliteus muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "93dce1d6-3076-45df-af56-6340762bf5d5"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "d321ff8b-2da4-4e08-9736-942eee0312f8",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_23_soleus_muscle.vtk"
+    },
+    {
+        "@id": "71c4d496-b51d-44b2-99de-cd2a0c545b89",
+        "@type": "structure",
+        "annotation": {
+            "name": "soleus muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "d321ff8b-2da4-4e08-9736-942eee0312f8"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "aa5a3d82-6bc4-4e48-96e5-3c315d7f5e41",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_24_tibialis_anterior_muscle.vtk"
+    },
+    {
+        "@id": "ae26d332-5d1d-4e82-b1d5-5e401dc148af",
+        "@type": "structure",
+        "annotation": {
+            "name": "tibialis anterior muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "aa5a3d82-6bc4-4e48-96e5-3c315d7f5e41"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "bb4a1051-bca8-46a4-bc7a-74d95f934e4c",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_25_extensor_digitorum_longus_muscle.vtk"
+    },
+    {
+        "@id": "3225ab69-55f7-48d7-8a10-ae1e5e10b1bb",
+        "@type": "structure",
+        "annotation": {
+            "name": "extensor digitorum longus muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "bb4a1051-bca8-46a4-bc7a-74d95f934e4c"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "79645394-2ca6-416f-90ea-5d82c45973b9",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_26_peroneus_longus_muscle.vtk"
+    },
+    {
+        "@id": "1fc44f55-06bb-4d1b-84f0-2a6a72144566",
+        "@type": "structure",
+        "annotation": {
+            "name": "peroneus longus muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "79645394-2ca6-416f-90ea-5d82c45973b9"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "9d787c04-59d3-41e0-930e-0161c66d12b0",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_31_anterior_cruciate_ligament.vtk"
+    },
+    {
+        "@id": "92ce8170-2604-4a99-bb71-d696424c9080",
+        "@type": "structure",
+        "annotation": {
+            "name": "anterior cruciate ligament"
+        },
+        "sourceSelector": {
+            "dataSource": "9d787c04-59d3-41e0-930e-0161c66d12b0"
+        },
+        "renderOptions": {
+            "color": "rgb(255,255,255)"
+        }
+    },
+    {
+        "@id": "e35f4881-2e64-4026-b6d9-2e7ce38e2817",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_32_posterior_cruciate_ligament.vtk"
+    },
+    {
+        "@id": "0fb7d0a8-fe7c-4c9d-949a-799e2d99a783",
+        "@type": "structure",
+        "annotation": {
+            "name": "posterior cruciate ligament"
+        },
+        "sourceSelector": {
+            "dataSource": "e35f4881-2e64-4026-b6d9-2e7ce38e2817"
+        },
+        "renderOptions": {
+            "color": "rgb(255,255,255)"
+        }
+    },
+    {
+        "@id": "eeabf219-9f33-4b73-9516-e22ec4e75537",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_33_fibular_collateral_ligament.vtk"
+    },
+    {
+        "@id": "cc77572b-dc06-4d0f-bd40-ce0ca122a177",
+        "@type": "structure",
+        "annotation": {
+            "name": "fibular collateral ligament"
+        },
+        "sourceSelector": {
+            "dataSource": "eeabf219-9f33-4b73-9516-e22ec4e75537"
+        },
+        "renderOptions": {
+            "color": "rgb(255,255,255)"
+        }
+    },
+    {
+        "@id": "39b1f33b-a124-48fd-85b4-ef766434e088",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_9_infrapatellar_fat_body.vtk"
+    },
+    {
+        "@id": "bec1d5fe-d504-4dba-bd0b-b8203c033696",
+        "@type": "structure",
+        "annotation": {
+            "name": "infrapatellar fat body"
+        },
+        "sourceSelector": {
+            "dataSource": "39b1f33b-a124-48fd-85b4-ef766434e088"
+        },
+        "renderOptions": {
+            "color": "rgb(225,230,149)"
+        }
+    },
+    {
+        "@id": "cf79f041-2966-442d-9185-588e6b4b8f29",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_34_tibial_collateral_ligament.vtk"
+    },
+    {
+        "@id": "c7b6cc97-4654-4535-bb94-4b09c1a61966",
+        "@type": "structure",
+        "annotation": {
+            "name": "tibial collateral ligament"
+        },
+        "sourceSelector": {
+            "dataSource": "cf79f041-2966-442d-9185-588e6b4b8f29"
+        },
+        "renderOptions": {
+            "color": "rgb(255,255,255)"
+        }
+    },
+    {
+        "@id": "2e615194-8156-410b-b649-17ee0f09d98a",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_35_patellar_ligament.vtk"
+    },
+    {
+        "@id": "3ebe6b8d-42ba-45e3-9bd5-ccd2dfc63d80",
+        "@type": "structure",
+        "annotation": {
+            "name": "patellar ligament"
+        },
+        "sourceSelector": {
+            "dataSource": "2e615194-8156-410b-b649-17ee0f09d98a"
+        },
+        "renderOptions": {
+            "color": "rgb(255,255,255)"
+        }
+    },
+    {
+        "@id": "13bdb9e7-696e-468d-8576-3c27b182fe9f",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_41_adductor_magnus_tendon.vtk"
+    },
+    {
+        "@id": "1077ad44-0d3a-40a8-9141-310dd0c36b89",
+        "@type": "structure",
+        "annotation": {
+            "name": "adductor magnus tendon"
+        },
+        "sourceSelector": {
+            "dataSource": "13bdb9e7-696e-468d-8576-3c27b182fe9f"
+        },
+        "renderOptions": {
+            "color": "rgb(239,219,219)"
+        }
+    },
+    {
+        "@id": "5c053257-c87d-4311-aa78-fe1ca580330f",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_42_biceps_femoris_tendon.vtk"
+    },
+    {
+        "@id": "48840d5b-0b73-4dde-85d9-a243a3277823",
+        "@type": "structure",
+        "annotation": {
+            "name": "biceps femoris tendon"
+        },
+        "sourceSelector": {
+            "dataSource": "5c053257-c87d-4311-aa78-fe1ca580330f"
+        },
+        "renderOptions": {
+            "color": "rgb(239,219,219)"
+        }
+    },
+    {
+        "@id": "44e8e2dc-4c17-48f1-b609-72d987b0e5bf",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_43_iliotibial_tract.vtk"
+    },
+    {
+        "@id": "5cbe88c6-17fd-45d9-80f9-a82edefff4cc",
+        "@type": "structure",
+        "annotation": {
+            "name": "iliotibial tract"
+        },
+        "sourceSelector": {
+            "dataSource": "44e8e2dc-4c17-48f1-b609-72d987b0e5bf"
+        },
+        "renderOptions": {
+            "color": "rgb(239,219,219)"
+        }
+    },
+    {
+        "@id": "b817ae3d-905b-42fb-97a7-b10f782ece6d",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_44_popliteus_tendon.vtk"
+    },
+    {
+        "@id": "495d0752-2c1c-4476-a85d-fdb39d8d5117",
+        "@type": "structure",
+        "annotation": {
+            "name": "popliteus tendon"
+        },
+        "sourceSelector": {
+            "dataSource": "b817ae3d-905b-42fb-97a7-b10f782ece6d"
+        },
+        "renderOptions": {
+            "color": "rgb(239,219,219)"
+        }
+    },
+    {
+        "@id": "c3704f19-e0a3-4f68-b4d5-70d66794b08d",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_46_soleus_tendon.vtk"
+    },
+    {
+        "@id": "d7df6deb-b7c1-47d7-a476-6b61c4138441",
+        "@type": "structure",
+        "annotation": {
+            "name": "soleus tendon"
+        },
+        "sourceSelector": {
+            "dataSource": "c3704f19-e0a3-4f68-b4d5-70d66794b08d"
+        },
+        "renderOptions": {
+            "color": "rgb(239,219,219)"
+        }
+    },
+    {
+        "@id": "82c24c6d-6bfe-4365-a6cd-105f2bad190a",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_47_semitendinosus_tendon.vtk"
+    },
+    {
+        "@id": "6ad9d8c9-c9eb-43ff-8e60-a6733441d9b4",
+        "@type": "structure",
+        "annotation": {
+            "name": "semitendinosus tendon"
+        },
+        "sourceSelector": {
+            "dataSource": "82c24c6d-6bfe-4365-a6cd-105f2bad190a"
+        },
+        "renderOptions": {
+            "color": "rgb(239,219,219)"
+        }
+    },
+    {
+        "@id": "cde6a15c-aace-4236-9cd7-10fb97776929",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_48_gracilis_tendon.vtk"
+    },
+    {
+        "@id": "436023b7-88a3-4cfe-8bd0-994d2a670a57",
+        "@type": "structure",
+        "annotation": {
+            "name": "gracilis tendon"
+        },
+        "sourceSelector": {
+            "dataSource": "cde6a15c-aace-4236-9cd7-10fb97776929"
+        },
+        "renderOptions": {
+            "color": "rgb(239,219,219)"
+        }
+    },
+    {
+        "@id": "d8c484dd-cd76-4f2b-adc1-67437859b7eb",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_61_peroneus_nerve.vtk"
+    },
+    {
+        "@id": "89f6e0a2-5989-4d86-b33a-922f97be1f7e",
+        "@type": "structure",
+        "annotation": {
+            "name": "peroneus nerve"
+        },
+        "sourceSelector": {
+            "dataSource": "d8c484dd-cd76-4f2b-adc1-67437859b7eb"
+        },
+        "renderOptions": {
+            "color": "rgb(244,225,16)"
+        }
+    },
+    {
+        "@id": "3e08e244-c9c4-48f2-82e7-d01f8e38a9e3",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_12_vastus_lateralis_muscle.vtk"
+    },
+    {
+        "@id": "55f62bb6-033e-4431-b23b-5d438a2f988a",
+        "@type": "structure",
+        "annotation": {
+            "name": "vastus lateralis muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "3e08e244-c9c4-48f2-82e7-d01f8e38a9e3"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "03ea2408-f40f-4474-bbba-56279375d8d2",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_62_tibialis_nerve.vtk"
+    },
+    {
+        "@id": "fa23ac9d-e61b-4396-9005-aa6b025909ef",
+        "@type": "structure",
+        "annotation": {
+            "name": "tibialis nerve"
+        },
+        "sourceSelector": {
+            "dataSource": "03ea2408-f40f-4474-bbba-56279375d8d2"
+        },
+        "renderOptions": {
+            "color": "rgb(244,225,16)"
+        }
+    },
+    {
+        "@id": "4afb98ad-dd29-4735-b9f6-2c4e884112c3",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_63_muscular_branches_tibialis_nerve.vtk"
+    },
+    {
+        "@id": "3cad9dd7-53de-491f-a997-a2bba015228d",
+        "@type": "structure",
+        "annotation": {
+            "name": "muscular branches tibialis nerve"
+        },
+        "sourceSelector": {
+            "dataSource": "4afb98ad-dd29-4735-b9f6-2c4e884112c3"
+        },
+        "renderOptions": {
+            "color": "rgb(244,225,16)"
+        }
+    },
+    {
+        "@id": "4eae54b7-ddbb-4a75-98c1-6bc410d90ca3",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_64_medial_sural_cutaneous_nerve.vtk"
+    },
+    {
+        "@id": "ec0cd352-f53d-433f-bcf6-94aac1078df0",
+        "@type": "structure",
+        "annotation": {
+            "name": "medial sural cutaneous nerve"
+        },
+        "sourceSelector": {
+            "dataSource": "4eae54b7-ddbb-4a75-98c1-6bc410d90ca3"
+        },
+        "renderOptions": {
+            "color": "rgb(244,225,16)"
+        }
+    },
+    {
+        "@id": "91b38306-a6ef-489d-9202-b292d853c9f8",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_71_popliteal_artery.vtk"
+    },
+    {
+        "@id": "c40705be-831b-4339-a810-343aa2748be1",
+        "@type": "structure",
+        "annotation": {
+            "name": "popliteal artery"
+        },
+        "sourceSelector": {
+            "dataSource": "91b38306-a6ef-489d-9202-b292d853c9f8"
+        },
+        "renderOptions": {
+            "color": "rgb(253,98,70)"
+        }
+    },
+    {
+        "@id": "12e690d3-3674-40ca-9fc9-c47f79ec9593",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_72_popliteal_vein.vtk"
+    },
+    {
+        "@id": "2a60b5e1-1974-4e15-9c18-988c398495cd",
+        "@type": "structure",
+        "annotation": {
+            "name": "popliteal vein"
+        },
+        "sourceSelector": {
+            "dataSource": "12e690d3-3674-40ca-9fc9-c47f79ec9593"
+        },
+        "renderOptions": {
+            "color": "rgb(40,165,255)"
+        }
+    },
+    {
+        "@id": "767b8314-6d6d-44cb-8716-f7ca96affcf2",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_73_superior_medial_genicular_artery.vtk"
+    },
+    {
+        "@id": "f25001b7-2e2b-4236-ad00-9b0236d89a71",
+        "@type": "structure",
+        "annotation": {
+            "name": "superior medial genicular artery"
+        },
+        "sourceSelector": {
+            "dataSource": "767b8314-6d6d-44cb-8716-f7ca96affcf2"
+        },
+        "renderOptions": {
+            "color": "rgb(253,98,70)"
+        }
+    },
+    {
+        "@id": "da0a7a99-4c94-4563-87fc-e975079d76f9",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_74_superior_lateral_genicular_artery.vtk"
+    },
+    {
+        "@id": "94f48a01-d8c1-4d6e-b838-5887fea63d25",
+        "@type": "structure",
+        "annotation": {
+            "name": "superior lateral genicular artery"
+        },
+        "sourceSelector": {
+            "dataSource": "da0a7a99-4c94-4563-87fc-e975079d76f9"
+        },
+        "renderOptions": {
+            "color": "rgb(253,98,70)"
+        }
+    },
+    {
+        "@id": "eb0a0224-a39d-420f-8d13-a7ce69889a92",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_75_middle_genicular_artery.vtk"
+    },
+    {
+        "@id": "58ba256b-2dbb-40f6-95ef-2b41c7c061fc",
+        "@type": "structure",
+        "annotation": {
+            "name": "middle genicular artery"
+        },
+        "sourceSelector": {
+            "dataSource": "eb0a0224-a39d-420f-8d13-a7ce69889a92"
+        },
+        "renderOptions": {
+            "color": "rgb(253,98,70)"
+        }
+    },
+    {
+        "@id": "73b7e2aa-954d-40ac-ac66-833aa3b6534c",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_77_great_saphenous_vein.vtk"
+    },
+    {
+        "@id": "218bbbbc-9c3d-4f84-bb7e-648f0c2267f3",
+        "@type": "structure",
+        "annotation": {
+            "name": "great saphenous vein"
+        },
+        "sourceSelector": {
+            "dataSource": "73b7e2aa-954d-40ac-ac66-833aa3b6534c"
+        },
+        "renderOptions": {
+            "color": "rgb(40,165,255)"
+        }
+    },
+    {
+        "@id": "bc3c756a-cf2f-4f4c-b2f8-5d329f8bee96",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_78_small_saphenous_vein.vtk"
+    },
+    {
+        "@id": "6aac1ba8-1c70-4a6d-9376-889de4b68dfb",
+        "@type": "structure",
+        "annotation": {
+            "name": "small saphenous vein"
+        },
+        "sourceSelector": {
+            "dataSource": "bc3c756a-cf2f-4f4c-b2f8-5d329f8bee96"
+        },
+        "renderOptions": {
+            "color": "rgb(40,165,255)"
+        }
+    },
+    {
+        "@id": "0677b8ab-1f34-41b5-bad6-95c87446eaa4",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_13_vastus_medialis_muscle.vtk"
+    },
+    {
+        "@id": "99e7d7e3-0775-4fba-ae96-66849c29bd49",
+        "@type": "structure",
+        "annotation": {
+            "name": "vastus medialis muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "0677b8ab-1f34-41b5-bad6-95c87446eaa4"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "75812bb6-82c5-4f21-91ea-68c593b1abe1",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_81_lateral_meniscus.vtk"
+    },
+    {
+        "@id": "e1292fe0-3fc4-4412-a7c0-19faa306e0c2",
+        "@type": "structure",
+        "annotation": {
+            "name": "lateral meniscus"
+        },
+        "sourceSelector": {
+            "dataSource": "75812bb6-82c5-4f21-91ea-68c593b1abe1"
+        },
+        "renderOptions": {
+            "color": "rgb(200,205,205)"
+        }
+    },
+    {
+        "@id": "58d3e28e-05d1-464f-b654-ef2621b3eb4f",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_82_medial_meniscus.vtk"
+    },
+    {
+        "@id": "64ab3194-9063-4677-bd6b-3a4d4a285fe1",
+        "@type": "structure",
+        "annotation": {
+            "name": "medial meniscus"
+        },
+        "sourceSelector": {
+            "dataSource": "58d3e28e-05d1-464f-b654-ef2621b3eb4f"
+        },
+        "renderOptions": {
+            "color": "rgb(200,205,205)"
+        }
+    },
+    {
+        "@id": "7b6f3722-0fd4-432b-887c-fc24b0e575c5",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_83_femoral_cartilage.vtk"
+    },
+    {
+        "@id": "be84e96b-1591-4e61-826a-fe85e5d89546",
+        "@type": "structure",
+        "annotation": {
+            "name": "femoral cartilage"
+        },
+        "sourceSelector": {
+            "dataSource": "7b6f3722-0fd4-432b-887c-fc24b0e575c5"
+        },
+        "renderOptions": {
+            "color": "rgb(179,179,255)"
+        }
+    },
+    {
+        "@id": "299702eb-3ae1-46a7-aceb-7a659c78b17f",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_84_lateral_tibial_cartilage.vtk"
+    },
+    {
+        "@id": "40c4bac6-66c8-4cf9-87ee-6ec936d5987a",
+        "@type": "structure",
+        "annotation": {
+            "name": "lateral tibial cartilage"
+        },
+        "sourceSelector": {
+            "dataSource": "299702eb-3ae1-46a7-aceb-7a659c78b17f"
+        },
+        "renderOptions": {
+            "color": "rgb(179,179,255)"
+        }
+    },
+    {
+        "@id": "f48006c5-5d20-4b2e-8713-dd8751466b0e",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_85_medial_tibial_cartilage.vtk"
+    },
+    {
+        "@id": "996fd2af-b127-42a9-aa17-12d488dfe1e7",
+        "@type": "structure",
+        "annotation": {
+            "name": "medial tibial cartilage"
+        },
+        "sourceSelector": {
+            "dataSource": "f48006c5-5d20-4b2e-8713-dd8751466b0e"
+        },
+        "renderOptions": {
+            "color": "rgb(179,179,255)"
+        }
+    },
+    {
+        "@id": "c55e04f8-aa1d-4496-8bb0-b88cc06f71a3",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_86_patellar_cartilage.vtk"
+    },
+    {
+        "@id": "d35c0f7a-32a3-4b39-b7a4-45b40cf4a741",
+        "@type": "structure",
+        "annotation": {
+            "name": "patellar cartilage"
+        },
+        "sourceSelector": {
+            "dataSource": "c55e04f8-aa1d-4496-8bb0-b88cc06f71a3"
+        },
+        "renderOptions": {
+            "color": "rgb(179,179,255)"
+        }
+    },
+    {
+        "@id": "9b8820f1-2910-4870-9689-dc6de9218aa1",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_95_femur.vtk"
+    },
+    {
+        "@id": "6dadc88f-c9dd-4ef4-bf74-cd8491b0325c",
+        "@type": "structure",
+        "annotation": {
+            "name": "femur"
+        },
+        "sourceSelector": {
+            "dataSource": "9b8820f1-2910-4870-9689-dc6de9218aa1"
+        },
+        "renderOptions": {
+            "color": "rgb(196,188,177)"
+        }
+    },
+    {
+        "@id": "f0024a76-b4bb-45ab-acd0-3c96d4ed7eb3",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_96_tibia.vtk"
+    },
+    {
+        "@id": "885ce332-7693-44d6-a3e9-4c3494ce6897",
+        "@type": "structure",
+        "annotation": {
+            "name": "tibia"
+        },
+        "sourceSelector": {
+            "dataSource": "f0024a76-b4bb-45ab-acd0-3c96d4ed7eb3"
+        },
+        "renderOptions": {
+            "color": "rgb(196,188,177)"
+        }
+    },
+    {
+        "@id": "1312fd40-5312-4fd7-a447-0ba7d06557f4",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_97_fibula.vtk"
+    },
+    {
+        "@id": "01ac0adc-2521-4283-9ed1-1a7a45e620cf",
+        "@type": "structure",
+        "annotation": {
+            "name": "fibula"
+        },
+        "sourceSelector": {
+            "dataSource": "1312fd40-5312-4fd7-a447-0ba7d06557f4"
+        },
+        "renderOptions": {
+            "color": "rgb(196,188,177)"
+        }
+    },
+    {
+        "@id": "aaf05bd1-7bd9-4f4c-87f9-1a373d2eabe5",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_98_patella.vtk"
+    },
+    {
+        "@id": "cc8f2153-e0ed-42f8-9622-d374a31b0b56",
+        "@type": "structure",
+        "annotation": {
+            "name": "patella"
+        },
+        "sourceSelector": {
+            "dataSource": "aaf05bd1-7bd9-4f4c-87f9-1a373d2eabe5"
+        },
+        "renderOptions": {
+            "color": "rgb(196,188,177)"
+        }
+    },
+    {
+        "@id": "c073d6d9-3bcc-427f-af37-16de9410ec79",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_15_biceps_femoris_muscle.vtk"
+    },
+    {
+        "@id": "6b51dbee-b28c-4412-a7e9-b0614faab6cc",
+        "@type": "structure",
+        "annotation": {
+            "name": "biceps femoris muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "c073d6d9-3bcc-427f-af37-16de9410ec79"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "1688afb0-d5ef-4d33-acb8-aeefcf39b541",
+        "@type": "group",
+        "annotation": {
+            "name": "Bones"
+        },
+        "members": [
+            "6dadc88f-c9dd-4ef4-bf74-cd8491b0325c",
+            "885ce332-7693-44d6-a3e9-4c3494ce6897",
+            "01ac0adc-2521-4283-9ed1-1a7a45e620cf",
+            "cc8f2153-e0ed-42f8-9622-d374a31b0b56"
+        ],
+        "root": true
+    },
+    {
+        "@id": "0d13fea9-a619-4148-8b8d-6614baa45733",
+        "@type": "group",
+        "annotation": {
+            "name": "Cartilages"
+        },
+        "members": [
+            "996fd2af-b127-42a9-aa17-12d488dfe1e7",
+            "d35c0f7a-32a3-4b39-b7a4-45b40cf4a741",
+            "40c4bac6-66c8-4cf9-87ee-6ec936d5987a",
+            "be84e96b-1591-4e61-826a-fe85e5d89546"
+        ],
+        "root": true
+    },
+    {
+        "@id": "7ecf57e5-2249-4d11-8b41-06f237ff6ff2",
+        "@type": "group",
+        "annotation": {
+            "name": "Meniscus"
+        },
+        "members": [
+            "e1292fe0-3fc4-4412-a7c0-19faa306e0c2",
+            "64ab3194-9063-4677-bd6b-3a4d4a285fe1"
+        ],
+        "root": true
+    },
+    {
+        "@id": "bc3e8ae3-f6fa-452c-a6b2-d0750754ac79",
+        "@type": "group",
+        "annotation": {
+            "name": "Vascular System"
+        },
+        "members": [
+            "b3261693-f5f6-48ed-89e0-513e59775b77",
+            "891d2f5a-7f70-49c6-b839-536f4ccb232b"
+        ],
+        "root": true
+    },
+    {
+        "@id": "b3261693-f5f6-48ed-89e0-513e59775b77",
+        "@type": "group",
+        "annotation": {
+            "name": "Arteries"
+        },
+        "members": [
+            "c40705be-831b-4339-a810-343aa2748be1",
+            "f25001b7-2e2b-4236-ad00-9b0236d89a71",
+            "58ba256b-2dbb-40f6-95ef-2b41c7c061fc",
+            "94f48a01-d8c1-4d6e-b838-5887fea63d25"
+        ]
+    },
+    {
+        "@id": "891d2f5a-7f70-49c6-b839-536f4ccb232b",
+        "@type": "group",
+        "annotation": {
+            "name": "Veins"
+        },
+        "members": [
+            "6aac1ba8-1c70-4a6d-9376-889de4b68dfb",
+            "218bbbbc-9c3d-4f84-bb7e-648f0c2267f3",
+            "2a60b5e1-1974-4e15-9c18-988c398495cd"
+        ]
+    },
+    {
+        "@id": "ed919144-fbc1-4fc2-b18d-82b62a4d8dfd",
+        "@type": "group",
+        "annotation": {
+            "name": "Nerves"
+        },
+        "members": [
+            "89f6e0a2-5989-4d86-b33a-922f97be1f7e",
+            "fa23ac9d-e61b-4396-9005-aa6b025909ef",
+            "ec0cd352-f53d-433f-bcf6-94aac1078df0",
+            "3cad9dd7-53de-491f-a997-a2bba015228d"
+        ],
+        "root": true
+    },
+    {
+        "@id": "06d67fc0-a277-4a29-850c-ccd648401375",
+        "@type": "group",
+        "annotation": {
+            "name": "Tendons"
+        },
+        "members": [
+            "1077ad44-0d3a-40a8-9141-310dd0c36b89",
+            "48840d5b-0b73-4dde-85d9-a243a3277823",
+            "d7df6deb-b7c1-47d7-a476-6b61c4138441",
+            "6ad9d8c9-c9eb-43ff-8e60-a6733441d9b4",
+            "5cbe88c6-17fd-45d9-80f9-a82edefff4cc",
+            "495d0752-2c1c-4476-a85d-fdb39d8d5117",
+            "436023b7-88a3-4cfe-8bd0-994d2a670a57"
+        ],
+        "root": true
+    },
+    {
+        "@id": "b999ca5d-fe0b-46cd-a427-7c09f8a4e39a",
+        "@type": "group",
+        "annotation": {
+            "name": "Muscles"
+        },
+        "members": [
+            "c0510470-1c94-402e-b103-99ad7ca98512",
+            "0da835c2-67b4-4cbd-a08d-7cea6420c183",
+            "55f62bb6-033e-4431-b23b-5d438a2f988a",
+            "83c2dece-e8ad-4f9e-b1f5-f67f650c6437",
+            "565681ab-f785-42b1-9f7f-2c67186180f1",
+            "6b51dbee-b28c-4412-a7e9-b0614faab6cc",
+            "99e7d7e3-0775-4fba-ae96-66849c29bd49",
+            "71c4d496-b51d-44b2-99de-cd2a0c545b89",
+            "0cc2fdd0-08af-4e88-b96b-7e5166754fa8",
+            "f469ec07-7e0c-404a-b565-cea07f1c6bfb",
+            "1fc44f55-06bb-4d1b-84f0-2a6a72144566",
+            "3225ab69-55f7-48d7-8a10-ae1e5e10b1bb",
+            "ae26d332-5d1d-4e82-b1d5-5e401dc148af",
+            "0874c4a5-2bfb-417f-b692-f737ec6e3f31"
+        ],
+        "root": true
+    },
+    {
+        "@id": "80390c42-4be1-461e-a0ed-b06767c987c0",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_16_semimembranosus_muscle.vtk"
+    },
+    {
+        "@id": "565681ab-f785-42b1-9f7f-2c67186180f1",
+        "@type": "structure",
+        "annotation": {
+            "name": "semimembranosus muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "80390c42-4be1-461e-a0ed-b06767c987c0"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "77e4f9a9-9816-46c3-a7ba-9f7c3bc5e413",
+        "@type": "group",
+        "annotation": {
+            "name": "Ligaments"
+        },
+        "members": [
+            "92ce8170-2604-4a99-bb71-d696424c9080",
+            "c7b6cc97-4654-4535-bb94-4b09c1a61966",
+            "3ebe6b8d-42ba-45e3-9bd5-ccd2dfc63d80",
+            "0fb7d0a8-fe7c-4c9d-949a-799e2d99a783",
+            "cc77572b-dc06-4d0f-bd40-ce0ca122a177"
+        ],
+        "root": true
+    },
+    {
+        "@id": "f243acfc-8375-4858-9c34-d3137a3b06e7",
+        "@type": "group",
+        "annotation": {
+            "name": "Fat"
+        },
+        "members": [
+            "bec1d5fe-d504-4dba-bd0b-b8203c033696"
+        ],
+        "root": true
+    },
+    {
+        "@id": "99d3d98a-6f46-438d-9ffc-cd0b491ce2b9",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_17_semitendinosus_muscle.vtk"
+    },
+    {
+        "@id": "83c2dece-e8ad-4f9e-b1f5-f67f650c6437",
+        "@type": "structure",
+        "annotation": {
+            "name": "semitendinosus muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "99d3d98a-6f46-438d-9ffc-cd0b491ce2b9"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "7c8f7a55-35f0-489b-a153-9963dfd6c961",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_18_gracilis_muscle.vtk"
+    },
+    {
+        "@id": "0874c4a5-2bfb-417f-b692-f737ec6e3f31",
+        "@type": "structure",
+        "annotation": {
+            "name": "gracilis muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "7c8f7a55-35f0-489b-a153-9963dfd6c961"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "715914bf-14eb-4813-b018-43e825aa772f",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_19_sartorius_muscle.vtk"
+    },
+    {
+        "@id": "0da835c2-67b4-4cbd-a08d-7cea6420c183",
+        "@type": "structure",
+        "annotation": {
+            "name": "sartorius muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "715914bf-14eb-4813-b018-43e825aa772f"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    }
+]
