@@ -9,1074 +9,1811 @@
         "version": "1",
         "contact": "https://github.com/stity/spl-knee-atlas",
         "comment": "",
-        "coordinate_system": "self defined"
+        "coordinate_system": "self defined",
+        "roots": [
+            "157c40da-eed6-4b1e-ba6c-b4e8302b7403",
+            "4145a103-bfcb-4d65-bac3-241eb1b36da9",
+            "2f79144e-8377-4a1e-84ff-aa6c8d57730c",
+            "678f820e-7237-4c7a-82ed-b0ccb2dde151",
+            "41789fc5-a3b7-4f03-b74c-58f1d535f8d1",
+            "8db43c96-b4e0-48e2-8d58-fc306c81f77f",
+            "71967a41-d4ec-4f7a-b22a-9e401c5ca381",
+            "50d57310-befe-4f57-958f-dd803b2d6e26",
+            "88fb919c-ca4c-4453-8d46-d81b01dbb705"
+        ],
+        "backgroundImages": [
+            "fdeacc19-fbe8-4185-9998-d4229f53f0d7"
+        ]
     },
     {
-        "@id": "34857515-ef08-4109-a54a-d3ca09dc58fc",
+        "@id": "fdeacc19-fbe8-4185-9998-d4229f53f0d7",
+        "@type": "datasource",
+        "mimeType": "application/x-nrrd",
+        "source": "../../Data/I.nrrd"
+    },
+    {
+        "@id": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+        "@type": "datasource",
+        "mimeType": "application/x-nrrd",
+        "source": "../../Data/seg.nrrd"
+    },
+    {
+        "@id": "a3789e5b-e890-4036-b204-6b4022916d82",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_20_medial_head_gastrocnemius_muscle.vtk"
     },
     {
-        "@id": "c0510470-1c94-402e-b103-99ad7ca98512",
+        "@id": "3d9c03b9-3950-444e-9e55-32e14bec3160",
         "@type": "structure",
         "annotation": {
             "name": "medial head gastrocnemius muscle"
         },
-        "sourceSelector": {
-            "dataSource": "34857515-ef08-4109-a54a-d3ca09dc58fc"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "a3789e5b-e890-4036-b204-6b4022916d82"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 20,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(230,124,124)"
         }
     },
     {
-        "@id": "327b37a3-8072-4c27-bf83-963cd136ce6a",
+        "@id": "a7fb8f87-e7db-499c-ac99-81e75d1c0991",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_21_lateral_head_gastrocnemius_muscle.vtk"
     },
     {
-        "@id": "f469ec07-7e0c-404a-b565-cea07f1c6bfb",
+        "@id": "1c65a4d4-07e7-45b2-999a-722d559e4bab",
         "@type": "structure",
         "annotation": {
             "name": "lateral head gastrocnemius muscle"
         },
-        "sourceSelector": {
-            "dataSource": "327b37a3-8072-4c27-bf83-963cd136ce6a"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "a7fb8f87-e7db-499c-ac99-81e75d1c0991"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 21,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(230,124,124)"
         }
     },
     {
-        "@id": "93dce1d6-3076-45df-af56-6340762bf5d5",
+        "@id": "f11059cc-ae99-4765-8fe9-f71443fe06f9",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_22_popliteus_muscle.vtk"
     },
     {
-        "@id": "0cc2fdd0-08af-4e88-b96b-7e5166754fa8",
+        "@id": "6a3695ac-c2e5-454a-b9c1-c870b3b49850",
         "@type": "structure",
         "annotation": {
             "name": "popliteus muscle"
         },
-        "sourceSelector": {
-            "dataSource": "93dce1d6-3076-45df-af56-6340762bf5d5"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "f11059cc-ae99-4765-8fe9-f71443fe06f9"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 22,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(230,124,124)"
         }
     },
     {
-        "@id": "d321ff8b-2da4-4e08-9736-942eee0312f8",
+        "@id": "10169962-7392-4c0c-8ad2-09a65dc65b99",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_23_soleus_muscle.vtk"
     },
     {
-        "@id": "71c4d496-b51d-44b2-99de-cd2a0c545b89",
+        "@id": "366a63b4-3821-4def-a81f-d026e44fc0a8",
         "@type": "structure",
         "annotation": {
             "name": "soleus muscle"
         },
-        "sourceSelector": {
-            "dataSource": "d321ff8b-2da4-4e08-9736-942eee0312f8"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "10169962-7392-4c0c-8ad2-09a65dc65b99"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 23,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(230,124,124)"
         }
     },
     {
-        "@id": "aa5a3d82-6bc4-4e48-96e5-3c315d7f5e41",
+        "@id": "4b0870f3-3a9f-4cb5-9a1d-8223e7cd2135",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_24_tibialis_anterior_muscle.vtk"
     },
     {
-        "@id": "ae26d332-5d1d-4e82-b1d5-5e401dc148af",
+        "@id": "524f1578-f859-4c09-8937-5cd0e91a988d",
         "@type": "structure",
         "annotation": {
             "name": "tibialis anterior muscle"
         },
-        "sourceSelector": {
-            "dataSource": "aa5a3d82-6bc4-4e48-96e5-3c315d7f5e41"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "4b0870f3-3a9f-4cb5-9a1d-8223e7cd2135"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 24,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(230,124,124)"
         }
     },
     {
-        "@id": "bb4a1051-bca8-46a4-bc7a-74d95f934e4c",
+        "@id": "abef1ca4-ccf5-4442-b7fe-7eeacad1629d",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_25_extensor_digitorum_longus_muscle.vtk"
     },
     {
-        "@id": "3225ab69-55f7-48d7-8a10-ae1e5e10b1bb",
+        "@id": "c61bdea0-f364-4881-923e-be10f62c60e9",
         "@type": "structure",
         "annotation": {
             "name": "extensor digitorum longus muscle"
         },
-        "sourceSelector": {
-            "dataSource": "bb4a1051-bca8-46a4-bc7a-74d95f934e4c"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "abef1ca4-ccf5-4442-b7fe-7eeacad1629d"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 25,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(230,124,124)"
         }
     },
     {
-        "@id": "79645394-2ca6-416f-90ea-5d82c45973b9",
+        "@id": "c2017f16-16b4-4c6f-94a0-8d2e97b81862",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_26_peroneus_longus_muscle.vtk"
     },
     {
-        "@id": "1fc44f55-06bb-4d1b-84f0-2a6a72144566",
+        "@id": "8fd6cfd2-6b77-4cbf-b001-a86424ec2b22",
         "@type": "structure",
         "annotation": {
             "name": "peroneus longus muscle"
         },
-        "sourceSelector": {
-            "dataSource": "79645394-2ca6-416f-90ea-5d82c45973b9"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "c2017f16-16b4-4c6f-94a0-8d2e97b81862"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 26,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(230,124,124)"
         }
     },
     {
-        "@id": "9d787c04-59d3-41e0-930e-0161c66d12b0",
+        "@id": "0f2370c3-a92b-4054-80b0-808c45a6d701",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_31_anterior_cruciate_ligament.vtk"
     },
     {
-        "@id": "92ce8170-2604-4a99-bb71-d696424c9080",
+        "@id": "703a9297-7846-42bf-a011-195de4772e05",
         "@type": "structure",
         "annotation": {
             "name": "anterior cruciate ligament"
         },
-        "sourceSelector": {
-            "dataSource": "9d787c04-59d3-41e0-930e-0161c66d12b0"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "0f2370c3-a92b-4054-80b0-808c45a6d701"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 31,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(255,255,255)"
         }
     },
     {
-        "@id": "e35f4881-2e64-4026-b6d9-2e7ce38e2817",
+        "@id": "99a48bb9-4521-4ed5-860a-ec096bb69900",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_32_posterior_cruciate_ligament.vtk"
     },
     {
-        "@id": "0fb7d0a8-fe7c-4c9d-949a-799e2d99a783",
+        "@id": "3f941595-fcfa-4438-bd92-a33b3bcc0e07",
         "@type": "structure",
         "annotation": {
             "name": "posterior cruciate ligament"
         },
-        "sourceSelector": {
-            "dataSource": "e35f4881-2e64-4026-b6d9-2e7ce38e2817"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "99a48bb9-4521-4ed5-860a-ec096bb69900"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 32,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(255,255,255)"
         }
     },
     {
-        "@id": "eeabf219-9f33-4b73-9516-e22ec4e75537",
+        "@id": "c6b6dec6-a078-4cb8-b780-75a4eff2a83e",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_33_fibular_collateral_ligament.vtk"
     },
     {
-        "@id": "cc77572b-dc06-4d0f-bd40-ce0ca122a177",
+        "@id": "ddb99e74-1946-422b-8675-1398974b8752",
         "@type": "structure",
         "annotation": {
             "name": "fibular collateral ligament"
         },
-        "sourceSelector": {
-            "dataSource": "eeabf219-9f33-4b73-9516-e22ec4e75537"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "c6b6dec6-a078-4cb8-b780-75a4eff2a83e"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 33,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(255,255,255)"
         }
     },
     {
-        "@id": "39b1f33b-a124-48fd-85b4-ef766434e088",
+        "@id": "8290ada3-d31d-4dab-9512-9fc67efab631",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_9_infrapatellar_fat_body.vtk"
     },
     {
-        "@id": "bec1d5fe-d504-4dba-bd0b-b8203c033696",
+        "@id": "620179cd-377a-4f48-9dc9-dede3cdaddba",
         "@type": "structure",
         "annotation": {
             "name": "infrapatellar fat body"
         },
-        "sourceSelector": {
-            "dataSource": "39b1f33b-a124-48fd-85b4-ef766434e088"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "8290ada3-d31d-4dab-9512-9fc67efab631"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 9,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(225,230,149)"
         }
     },
     {
-        "@id": "cf79f041-2966-442d-9185-588e6b4b8f29",
+        "@id": "071f2a65-84ad-4a73-a24d-bb8b04b599a9",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_34_tibial_collateral_ligament.vtk"
     },
     {
-        "@id": "c7b6cc97-4654-4535-bb94-4b09c1a61966",
+        "@id": "5159842c-ac7a-44bb-afdb-f7e2b4ba3f75",
         "@type": "structure",
         "annotation": {
             "name": "tibial collateral ligament"
         },
-        "sourceSelector": {
-            "dataSource": "cf79f041-2966-442d-9185-588e6b4b8f29"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "071f2a65-84ad-4a73-a24d-bb8b04b599a9"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 34,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(255,255,255)"
         }
     },
     {
-        "@id": "2e615194-8156-410b-b649-17ee0f09d98a",
+        "@id": "34b530e4-a0fe-4303-9ffa-4ec49942013d",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_35_patellar_ligament.vtk"
     },
     {
-        "@id": "3ebe6b8d-42ba-45e3-9bd5-ccd2dfc63d80",
+        "@id": "e751e6f2-5fb6-47a0-b6a6-1b130392eb60",
         "@type": "structure",
         "annotation": {
             "name": "patellar ligament"
         },
-        "sourceSelector": {
-            "dataSource": "2e615194-8156-410b-b649-17ee0f09d98a"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "34b530e4-a0fe-4303-9ffa-4ec49942013d"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 35,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(255,255,255)"
         }
     },
     {
-        "@id": "13bdb9e7-696e-468d-8576-3c27b182fe9f",
+        "@id": "498331bd-9fcb-4eef-9a2c-4b9c3400a599",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_41_adductor_magnus_tendon.vtk"
     },
     {
-        "@id": "1077ad44-0d3a-40a8-9141-310dd0c36b89",
+        "@id": "c51f7cf9-bf2f-4f26-af3b-e97c97c15ff3",
         "@type": "structure",
         "annotation": {
             "name": "adductor magnus tendon"
         },
-        "sourceSelector": {
-            "dataSource": "13bdb9e7-696e-468d-8576-3c27b182fe9f"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "498331bd-9fcb-4eef-9a2c-4b9c3400a599"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 41,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(239,219,219)"
         }
     },
     {
-        "@id": "5c053257-c87d-4311-aa78-fe1ca580330f",
+        "@id": "4fa83548-22c0-4bf4-af38-9025ab9ee9dd",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_42_biceps_femoris_tendon.vtk"
     },
     {
-        "@id": "48840d5b-0b73-4dde-85d9-a243a3277823",
+        "@id": "fbb4da03-793d-4b6a-99cd-b63bcf0a1ace",
         "@type": "structure",
         "annotation": {
             "name": "biceps femoris tendon"
         },
-        "sourceSelector": {
-            "dataSource": "5c053257-c87d-4311-aa78-fe1ca580330f"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "4fa83548-22c0-4bf4-af38-9025ab9ee9dd"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 42,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(239,219,219)"
         }
     },
     {
-        "@id": "44e8e2dc-4c17-48f1-b609-72d987b0e5bf",
+        "@id": "a2b6db97-a830-4e1b-bf09-a6413ee4a69e",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_43_iliotibial_tract.vtk"
     },
     {
-        "@id": "5cbe88c6-17fd-45d9-80f9-a82edefff4cc",
+        "@id": "8bb491e5-9d98-4e6c-a142-6f2826b30eba",
         "@type": "structure",
         "annotation": {
             "name": "iliotibial tract"
         },
-        "sourceSelector": {
-            "dataSource": "44e8e2dc-4c17-48f1-b609-72d987b0e5bf"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "a2b6db97-a830-4e1b-bf09-a6413ee4a69e"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 43,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(239,219,219)"
         }
     },
     {
-        "@id": "b817ae3d-905b-42fb-97a7-b10f782ece6d",
+        "@id": "1b99be00-1cf6-426b-bd70-970676eea076",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_44_popliteus_tendon.vtk"
     },
     {
-        "@id": "495d0752-2c1c-4476-a85d-fdb39d8d5117",
+        "@id": "6379229f-466d-4538-940c-c3552f9bce8a",
         "@type": "structure",
         "annotation": {
             "name": "popliteus tendon"
         },
-        "sourceSelector": {
-            "dataSource": "b817ae3d-905b-42fb-97a7-b10f782ece6d"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "1b99be00-1cf6-426b-bd70-970676eea076"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 44,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(239,219,219)"
         }
     },
     {
-        "@id": "c3704f19-e0a3-4f68-b4d5-70d66794b08d",
+        "@id": "628dc4af-1a88-4903-b4ad-db7e015947d0",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_46_soleus_tendon.vtk"
     },
     {
-        "@id": "d7df6deb-b7c1-47d7-a476-6b61c4138441",
+        "@id": "4804625f-1c7c-4ceb-8233-0e8db6eea6b9",
         "@type": "structure",
         "annotation": {
             "name": "soleus tendon"
         },
-        "sourceSelector": {
-            "dataSource": "c3704f19-e0a3-4f68-b4d5-70d66794b08d"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "628dc4af-1a88-4903-b4ad-db7e015947d0"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 46,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(239,219,219)"
         }
     },
     {
-        "@id": "82c24c6d-6bfe-4365-a6cd-105f2bad190a",
+        "@id": "d795dcf6-a283-429c-ab46-3e8f486361ca",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_47_semitendinosus_tendon.vtk"
     },
     {
-        "@id": "6ad9d8c9-c9eb-43ff-8e60-a6733441d9b4",
+        "@id": "aff98bee-4a94-4e1b-848a-a139cf3d2f6a",
         "@type": "structure",
         "annotation": {
             "name": "semitendinosus tendon"
         },
-        "sourceSelector": {
-            "dataSource": "82c24c6d-6bfe-4365-a6cd-105f2bad190a"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "d795dcf6-a283-429c-ab46-3e8f486361ca"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 47,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(239,219,219)"
         }
     },
     {
-        "@id": "cde6a15c-aace-4236-9cd7-10fb97776929",
+        "@id": "1067632e-ebce-48a4-a4cf-e9d453c68d5e",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_48_gracilis_tendon.vtk"
     },
     {
-        "@id": "436023b7-88a3-4cfe-8bd0-994d2a670a57",
+        "@id": "809999ba-deec-4a1f-b074-d0fc6336681d",
         "@type": "structure",
         "annotation": {
             "name": "gracilis tendon"
         },
-        "sourceSelector": {
-            "dataSource": "cde6a15c-aace-4236-9cd7-10fb97776929"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "1067632e-ebce-48a4-a4cf-e9d453c68d5e"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 48,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(239,219,219)"
         }
     },
     {
-        "@id": "d8c484dd-cd76-4f2b-adc1-67437859b7eb",
+        "@id": "4d67ac2f-5dc4-456c-a09e-651f333007b1",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_61_peroneus_nerve.vtk"
     },
     {
-        "@id": "89f6e0a2-5989-4d86-b33a-922f97be1f7e",
+        "@id": "81fa5ca6-c72c-49b2-a6c5-aabd0c6ec6bd",
         "@type": "structure",
         "annotation": {
             "name": "peroneus nerve"
         },
-        "sourceSelector": {
-            "dataSource": "d8c484dd-cd76-4f2b-adc1-67437859b7eb"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "4d67ac2f-5dc4-456c-a09e-651f333007b1"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 61,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(244,225,16)"
         }
     },
     {
-        "@id": "3e08e244-c9c4-48f2-82e7-d01f8e38a9e3",
+        "@id": "1e9866ad-fd60-4381-8335-161ee8666770",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_12_vastus_lateralis_muscle.vtk"
     },
     {
-        "@id": "55f62bb6-033e-4431-b23b-5d438a2f988a",
+        "@id": "1cad82d8-c2a4-422f-8a1b-b67e3ef78bab",
         "@type": "structure",
         "annotation": {
             "name": "vastus lateralis muscle"
         },
-        "sourceSelector": {
-            "dataSource": "3e08e244-c9c4-48f2-82e7-d01f8e38a9e3"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "1e9866ad-fd60-4381-8335-161ee8666770"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 12,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(230,124,124)"
         }
     },
     {
-        "@id": "03ea2408-f40f-4474-bbba-56279375d8d2",
+        "@id": "ac31964c-188f-42ac-8ae1-b5b814a4bd9f",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_62_tibialis_nerve.vtk"
     },
     {
-        "@id": "fa23ac9d-e61b-4396-9005-aa6b025909ef",
+        "@id": "cb03aaa7-9bb2-45ac-b0f3-77b785be5647",
         "@type": "structure",
         "annotation": {
             "name": "tibialis nerve"
         },
-        "sourceSelector": {
-            "dataSource": "03ea2408-f40f-4474-bbba-56279375d8d2"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "ac31964c-188f-42ac-8ae1-b5b814a4bd9f"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 62,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(244,225,16)"
         }
     },
     {
-        "@id": "4afb98ad-dd29-4735-b9f6-2c4e884112c3",
+        "@id": "8d840d34-324d-4e33-9ccd-d36af9e76377",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_63_muscular_branches_tibialis_nerve.vtk"
     },
     {
-        "@id": "3cad9dd7-53de-491f-a997-a2bba015228d",
+        "@id": "a6d5e3e5-d503-4ac4-8172-7ad23a3f038f",
         "@type": "structure",
         "annotation": {
             "name": "muscular branches tibialis nerve"
         },
-        "sourceSelector": {
-            "dataSource": "4afb98ad-dd29-4735-b9f6-2c4e884112c3"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "8d840d34-324d-4e33-9ccd-d36af9e76377"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 63,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(244,225,16)"
         }
     },
     {
-        "@id": "4eae54b7-ddbb-4a75-98c1-6bc410d90ca3",
+        "@id": "13dc42ac-4b51-454b-98cf-79084a10bd9b",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_64_medial_sural_cutaneous_nerve.vtk"
     },
     {
-        "@id": "ec0cd352-f53d-433f-bcf6-94aac1078df0",
+        "@id": "b933aa73-b6a6-4a48-af25-ded16fdb61bd",
         "@type": "structure",
         "annotation": {
             "name": "medial sural cutaneous nerve"
         },
-        "sourceSelector": {
-            "dataSource": "4eae54b7-ddbb-4a75-98c1-6bc410d90ca3"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "13dc42ac-4b51-454b-98cf-79084a10bd9b"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 64,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(244,225,16)"
         }
     },
     {
-        "@id": "91b38306-a6ef-489d-9202-b292d853c9f8",
+        "@id": "6359dad1-162b-46cc-b11a-6825f86c6183",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_71_popliteal_artery.vtk"
     },
     {
-        "@id": "c40705be-831b-4339-a810-343aa2748be1",
+        "@id": "bb31d5b6-9720-4f6b-bff0-5442c505598e",
         "@type": "structure",
         "annotation": {
             "name": "popliteal artery"
         },
-        "sourceSelector": {
-            "dataSource": "91b38306-a6ef-489d-9202-b292d853c9f8"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "6359dad1-162b-46cc-b11a-6825f86c6183"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 71,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(253,98,70)"
         }
     },
     {
-        "@id": "12e690d3-3674-40ca-9fc9-c47f79ec9593",
+        "@id": "3a221c36-e878-43f4-a63b-cfaec46971b7",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_72_popliteal_vein.vtk"
     },
     {
-        "@id": "2a60b5e1-1974-4e15-9c18-988c398495cd",
+        "@id": "82ee0225-0766-4a54-8b13-667e14691960",
         "@type": "structure",
         "annotation": {
             "name": "popliteal vein"
         },
-        "sourceSelector": {
-            "dataSource": "12e690d3-3674-40ca-9fc9-c47f79ec9593"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "3a221c36-e878-43f4-a63b-cfaec46971b7"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 72,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(40,165,255)"
         }
     },
     {
-        "@id": "767b8314-6d6d-44cb-8716-f7ca96affcf2",
+        "@id": "483c8bdf-463e-40eb-b27d-cc9497190fa0",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_73_superior_medial_genicular_artery.vtk"
     },
     {
-        "@id": "f25001b7-2e2b-4236-ad00-9b0236d89a71",
+        "@id": "78807c1b-adfe-4b3e-9967-c4398b616344",
         "@type": "structure",
         "annotation": {
             "name": "superior medial genicular artery"
         },
-        "sourceSelector": {
-            "dataSource": "767b8314-6d6d-44cb-8716-f7ca96affcf2"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "483c8bdf-463e-40eb-b27d-cc9497190fa0"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 73,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(253,98,70)"
         }
     },
     {
-        "@id": "da0a7a99-4c94-4563-87fc-e975079d76f9",
+        "@id": "b92d6501-2040-4d12-8c93-6920051644e8",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_74_superior_lateral_genicular_artery.vtk"
     },
     {
-        "@id": "94f48a01-d8c1-4d6e-b838-5887fea63d25",
+        "@id": "e4a5e0c7-3216-4ac7-9cc4-93547d1d5426",
         "@type": "structure",
         "annotation": {
             "name": "superior lateral genicular artery"
         },
-        "sourceSelector": {
-            "dataSource": "da0a7a99-4c94-4563-87fc-e975079d76f9"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "b92d6501-2040-4d12-8c93-6920051644e8"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 74,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(253,98,70)"
         }
     },
     {
-        "@id": "eb0a0224-a39d-420f-8d13-a7ce69889a92",
+        "@id": "e1275a9b-8b11-4ad3-ac6b-d5d8db87a91a",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_75_middle_genicular_artery.vtk"
     },
     {
-        "@id": "58ba256b-2dbb-40f6-95ef-2b41c7c061fc",
+        "@id": "ab83cdf5-7562-49f5-b18c-3b69efe9abe0",
         "@type": "structure",
         "annotation": {
             "name": "middle genicular artery"
         },
-        "sourceSelector": {
-            "dataSource": "eb0a0224-a39d-420f-8d13-a7ce69889a92"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "e1275a9b-8b11-4ad3-ac6b-d5d8db87a91a"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 75,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(253,98,70)"
         }
     },
     {
-        "@id": "73b7e2aa-954d-40ac-ac66-833aa3b6534c",
+        "@id": "bde409e5-7962-403e-b565-949a710eb5f2",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_77_great_saphenous_vein.vtk"
     },
     {
-        "@id": "218bbbbc-9c3d-4f84-bb7e-648f0c2267f3",
+        "@id": "c34ff634-192a-4cac-afa6-6358f7f301ee",
         "@type": "structure",
         "annotation": {
             "name": "great saphenous vein"
         },
-        "sourceSelector": {
-            "dataSource": "73b7e2aa-954d-40ac-ac66-833aa3b6534c"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "bde409e5-7962-403e-b565-949a710eb5f2"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 77,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(40,165,255)"
         }
     },
     {
-        "@id": "bc3c756a-cf2f-4f4c-b2f8-5d329f8bee96",
+        "@id": "24f68a53-9b4e-41d0-a8bf-95ed89b674af",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_78_small_saphenous_vein.vtk"
     },
     {
-        "@id": "6aac1ba8-1c70-4a6d-9376-889de4b68dfb",
+        "@id": "2718c803-48c8-474a-b466-47ec5817ab08",
         "@type": "structure",
         "annotation": {
             "name": "small saphenous vein"
         },
-        "sourceSelector": {
-            "dataSource": "bc3c756a-cf2f-4f4c-b2f8-5d329f8bee96"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "24f68a53-9b4e-41d0-a8bf-95ed89b674af"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 78,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(40,165,255)"
         }
     },
     {
-        "@id": "0677b8ab-1f34-41b5-bad6-95c87446eaa4",
+        "@id": "dedd4546-5049-4b27-acf5-7b50ffd1d735",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_13_vastus_medialis_muscle.vtk"
     },
     {
-        "@id": "99e7d7e3-0775-4fba-ae96-66849c29bd49",
+        "@id": "c9c862d5-9e6a-49d4-a46d-2882673a0179",
         "@type": "structure",
         "annotation": {
             "name": "vastus medialis muscle"
         },
-        "sourceSelector": {
-            "dataSource": "0677b8ab-1f34-41b5-bad6-95c87446eaa4"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "dedd4546-5049-4b27-acf5-7b50ffd1d735"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 13,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(230,124,124)"
         }
     },
     {
-        "@id": "75812bb6-82c5-4f21-91ea-68c593b1abe1",
+        "@id": "6a78afa2-e1db-49da-abbc-1b83d2f5c158",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_81_lateral_meniscus.vtk"
     },
     {
-        "@id": "e1292fe0-3fc4-4412-a7c0-19faa306e0c2",
+        "@id": "3ca0fda9-1015-4a2b-92ed-1a9a2dcdab8d",
         "@type": "structure",
         "annotation": {
             "name": "lateral meniscus"
         },
-        "sourceSelector": {
-            "dataSource": "75812bb6-82c5-4f21-91ea-68c593b1abe1"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "6a78afa2-e1db-49da-abbc-1b83d2f5c158"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 81,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(200,205,205)"
         }
     },
     {
-        "@id": "58d3e28e-05d1-464f-b654-ef2621b3eb4f",
+        "@id": "e31b7f46-f71a-4f23-98b0-5d1ed5431dfd",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_82_medial_meniscus.vtk"
     },
     {
-        "@id": "64ab3194-9063-4677-bd6b-3a4d4a285fe1",
+        "@id": "aa84be5e-49b7-4256-b018-fb9549d80ee5",
         "@type": "structure",
         "annotation": {
             "name": "medial meniscus"
         },
-        "sourceSelector": {
-            "dataSource": "58d3e28e-05d1-464f-b654-ef2621b3eb4f"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "e31b7f46-f71a-4f23-98b0-5d1ed5431dfd"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 82,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(200,205,205)"
         }
     },
     {
-        "@id": "7b6f3722-0fd4-432b-887c-fc24b0e575c5",
+        "@id": "a096e913-7133-43ea-841f-d782d4da6111",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_83_femoral_cartilage.vtk"
     },
     {
-        "@id": "be84e96b-1591-4e61-826a-fe85e5d89546",
+        "@id": "6f21e2d4-e2cd-4b69-b543-21164f76b9b7",
         "@type": "structure",
         "annotation": {
             "name": "femoral cartilage"
         },
-        "sourceSelector": {
-            "dataSource": "7b6f3722-0fd4-432b-887c-fc24b0e575c5"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "a096e913-7133-43ea-841f-d782d4da6111"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 83,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(179,179,255)"
         }
     },
     {
-        "@id": "299702eb-3ae1-46a7-aceb-7a659c78b17f",
+        "@id": "5d013c65-a270-4f4e-9268-14fee4d1edef",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_84_lateral_tibial_cartilage.vtk"
     },
     {
-        "@id": "40c4bac6-66c8-4cf9-87ee-6ec936d5987a",
+        "@id": "8d30bcab-8ae8-46b6-823b-71a684ef487b",
         "@type": "structure",
         "annotation": {
             "name": "lateral tibial cartilage"
         },
-        "sourceSelector": {
-            "dataSource": "299702eb-3ae1-46a7-aceb-7a659c78b17f"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "5d013c65-a270-4f4e-9268-14fee4d1edef"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 84,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(179,179,255)"
         }
     },
     {
-        "@id": "f48006c5-5d20-4b2e-8713-dd8751466b0e",
+        "@id": "02b055e7-3d00-4635-a09a-9c3203a42229",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_85_medial_tibial_cartilage.vtk"
     },
     {
-        "@id": "996fd2af-b127-42a9-aa17-12d488dfe1e7",
+        "@id": "4aaabe81-4064-4426-80cc-d82aff77b06c",
         "@type": "structure",
         "annotation": {
             "name": "medial tibial cartilage"
         },
-        "sourceSelector": {
-            "dataSource": "f48006c5-5d20-4b2e-8713-dd8751466b0e"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "02b055e7-3d00-4635-a09a-9c3203a42229"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 85,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(179,179,255)"
         }
     },
     {
-        "@id": "c55e04f8-aa1d-4496-8bb0-b88cc06f71a3",
+        "@id": "e1d2ff1d-abb5-4180-aa2c-6d6f68bb41de",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_86_patellar_cartilage.vtk"
     },
     {
-        "@id": "d35c0f7a-32a3-4b39-b7a4-45b40cf4a741",
+        "@id": "f7f15602-abe2-49b9-90ba-8cbc547077e9",
         "@type": "structure",
         "annotation": {
             "name": "patellar cartilage"
         },
-        "sourceSelector": {
-            "dataSource": "c55e04f8-aa1d-4496-8bb0-b88cc06f71a3"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "e1d2ff1d-abb5-4180-aa2c-6d6f68bb41de"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 86,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(179,179,255)"
         }
     },
     {
-        "@id": "9b8820f1-2910-4870-9689-dc6de9218aa1",
+        "@id": "2c234517-b891-4a55-a5da-6a60917d9681",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_95_femur.vtk"
     },
     {
-        "@id": "6dadc88f-c9dd-4ef4-bf74-cd8491b0325c",
+        "@id": "b2138b7d-3d44-4957-ba73-d919c25b9367",
         "@type": "structure",
         "annotation": {
             "name": "femur"
         },
-        "sourceSelector": {
-            "dataSource": "9b8820f1-2910-4870-9689-dc6de9218aa1"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "2c234517-b891-4a55-a5da-6a60917d9681"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 95,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(196,188,177)"
         }
     },
     {
-        "@id": "f0024a76-b4bb-45ab-acd0-3c96d4ed7eb3",
+        "@id": "fcef79f5-36e0-4c1b-a158-959d66db4f5f",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_96_tibia.vtk"
     },
     {
-        "@id": "885ce332-7693-44d6-a3e9-4c3494ce6897",
+        "@id": "755ea9e0-10ec-4a02-94a7-826feb7ee52b",
         "@type": "structure",
         "annotation": {
             "name": "tibia"
         },
-        "sourceSelector": {
-            "dataSource": "f0024a76-b4bb-45ab-acd0-3c96d4ed7eb3"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "fcef79f5-36e0-4c1b-a158-959d66db4f5f"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 96,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(196,188,177)"
         }
     },
     {
-        "@id": "1312fd40-5312-4fd7-a447-0ba7d06557f4",
+        "@id": "649c126a-8be5-4415-922a-566648566807",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_97_fibula.vtk"
     },
     {
-        "@id": "01ac0adc-2521-4283-9ed1-1a7a45e620cf",
+        "@id": "8c8869ba-9b16-480c-b091-7843b77a0493",
         "@type": "structure",
         "annotation": {
             "name": "fibula"
         },
-        "sourceSelector": {
-            "dataSource": "1312fd40-5312-4fd7-a447-0ba7d06557f4"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "649c126a-8be5-4415-922a-566648566807"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 97,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(196,188,177)"
         }
     },
     {
-        "@id": "aaf05bd1-7bd9-4f4c-87f9-1a373d2eabe5",
+        "@id": "8a61f086-7210-4fcd-a973-7622a908609e",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_98_patella.vtk"
     },
     {
-        "@id": "cc8f2153-e0ed-42f8-9622-d374a31b0b56",
+        "@id": "fab635f0-4c67-4939-8c20-6f92c5ec281e",
         "@type": "structure",
         "annotation": {
             "name": "patella"
         },
-        "sourceSelector": {
-            "dataSource": "aaf05bd1-7bd9-4f4c-87f9-1a373d2eabe5"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "8a61f086-7210-4fcd-a973-7622a908609e"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 98,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(196,188,177)"
         }
     },
     {
-        "@id": "c073d6d9-3bcc-427f-af37-16de9410ec79",
+        "@id": "0c9f4b26-023e-4224-b70a-2d5f3841c22a",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_15_biceps_femoris_muscle.vtk"
     },
     {
-        "@id": "6b51dbee-b28c-4412-a7e9-b0614faab6cc",
+        "@id": "e79e3500-8104-42f0-bcb7-264bc2545c39",
         "@type": "structure",
         "annotation": {
             "name": "biceps femoris muscle"
         },
-        "sourceSelector": {
-            "dataSource": "c073d6d9-3bcc-427f-af37-16de9410ec79"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "0c9f4b26-023e-4224-b70a-2d5f3841c22a"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 15,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(230,124,124)"
         }
     },
     {
-        "@id": "1688afb0-d5ef-4d33-acb8-aeefcf39b541",
+        "@id": "157c40da-eed6-4b1e-ba6c-b4e8302b7403",
         "@type": "group",
         "annotation": {
             "name": "Bones"
         },
         "members": [
-            "6dadc88f-c9dd-4ef4-bf74-cd8491b0325c",
-            "885ce332-7693-44d6-a3e9-4c3494ce6897",
-            "01ac0adc-2521-4283-9ed1-1a7a45e620cf",
-            "cc8f2153-e0ed-42f8-9622-d374a31b0b56"
-        ],
-        "root": true
+            "b2138b7d-3d44-4957-ba73-d919c25b9367",
+            "755ea9e0-10ec-4a02-94a7-826feb7ee52b",
+            "8c8869ba-9b16-480c-b091-7843b77a0493",
+            "fab635f0-4c67-4939-8c20-6f92c5ec281e"
+        ]
     },
     {
-        "@id": "0d13fea9-a619-4148-8b8d-6614baa45733",
+        "@id": "4145a103-bfcb-4d65-bac3-241eb1b36da9",
         "@type": "group",
         "annotation": {
             "name": "Cartilages"
         },
         "members": [
-            "996fd2af-b127-42a9-aa17-12d488dfe1e7",
-            "d35c0f7a-32a3-4b39-b7a4-45b40cf4a741",
-            "40c4bac6-66c8-4cf9-87ee-6ec936d5987a",
-            "be84e96b-1591-4e61-826a-fe85e5d89546"
-        ],
-        "root": true
+            "4aaabe81-4064-4426-80cc-d82aff77b06c",
+            "f7f15602-abe2-49b9-90ba-8cbc547077e9",
+            "8d30bcab-8ae8-46b6-823b-71a684ef487b",
+            "6f21e2d4-e2cd-4b69-b543-21164f76b9b7"
+        ]
     },
     {
-        "@id": "7ecf57e5-2249-4d11-8b41-06f237ff6ff2",
+        "@id": "2f79144e-8377-4a1e-84ff-aa6c8d57730c",
         "@type": "group",
         "annotation": {
             "name": "Meniscus"
         },
         "members": [
-            "e1292fe0-3fc4-4412-a7c0-19faa306e0c2",
-            "64ab3194-9063-4677-bd6b-3a4d4a285fe1"
-        ],
-        "root": true
+            "3ca0fda9-1015-4a2b-92ed-1a9a2dcdab8d",
+            "aa84be5e-49b7-4256-b018-fb9549d80ee5"
+        ]
     },
     {
-        "@id": "bc3e8ae3-f6fa-452c-a6b2-d0750754ac79",
+        "@id": "678f820e-7237-4c7a-82ed-b0ccb2dde151",
         "@type": "group",
         "annotation": {
             "name": "Vascular System"
         },
         "members": [
-            "b3261693-f5f6-48ed-89e0-513e59775b77",
-            "891d2f5a-7f70-49c6-b839-536f4ccb232b"
-        ],
-        "root": true
+            "e81436eb-28dd-4390-bb3d-fa27d273b5f4",
+            "73374b35-b264-4e59-8c8d-1bf105e59221"
+        ]
     },
     {
-        "@id": "b3261693-f5f6-48ed-89e0-513e59775b77",
+        "@id": "e81436eb-28dd-4390-bb3d-fa27d273b5f4",
         "@type": "group",
         "annotation": {
             "name": "Arteries"
         },
         "members": [
-            "c40705be-831b-4339-a810-343aa2748be1",
-            "f25001b7-2e2b-4236-ad00-9b0236d89a71",
-            "58ba256b-2dbb-40f6-95ef-2b41c7c061fc",
-            "94f48a01-d8c1-4d6e-b838-5887fea63d25"
+            "bb31d5b6-9720-4f6b-bff0-5442c505598e",
+            "78807c1b-adfe-4b3e-9967-c4398b616344",
+            "ab83cdf5-7562-49f5-b18c-3b69efe9abe0",
+            "e4a5e0c7-3216-4ac7-9cc4-93547d1d5426"
         ]
     },
     {
-        "@id": "891d2f5a-7f70-49c6-b839-536f4ccb232b",
+        "@id": "73374b35-b264-4e59-8c8d-1bf105e59221",
         "@type": "group",
         "annotation": {
             "name": "Veins"
         },
         "members": [
-            "6aac1ba8-1c70-4a6d-9376-889de4b68dfb",
-            "218bbbbc-9c3d-4f84-bb7e-648f0c2267f3",
-            "2a60b5e1-1974-4e15-9c18-988c398495cd"
+            "2718c803-48c8-474a-b466-47ec5817ab08",
+            "c34ff634-192a-4cac-afa6-6358f7f301ee",
+            "82ee0225-0766-4a54-8b13-667e14691960"
         ]
     },
     {
-        "@id": "ed919144-fbc1-4fc2-b18d-82b62a4d8dfd",
+        "@id": "41789fc5-a3b7-4f03-b74c-58f1d535f8d1",
         "@type": "group",
         "annotation": {
             "name": "Nerves"
         },
         "members": [
-            "89f6e0a2-5989-4d86-b33a-922f97be1f7e",
-            "fa23ac9d-e61b-4396-9005-aa6b025909ef",
-            "ec0cd352-f53d-433f-bcf6-94aac1078df0",
-            "3cad9dd7-53de-491f-a997-a2bba015228d"
-        ],
-        "root": true
+            "81fa5ca6-c72c-49b2-a6c5-aabd0c6ec6bd",
+            "cb03aaa7-9bb2-45ac-b0f3-77b785be5647",
+            "b933aa73-b6a6-4a48-af25-ded16fdb61bd",
+            "a6d5e3e5-d503-4ac4-8172-7ad23a3f038f"
+        ]
     },
     {
-        "@id": "06d67fc0-a277-4a29-850c-ccd648401375",
+        "@id": "8db43c96-b4e0-48e2-8d58-fc306c81f77f",
         "@type": "group",
         "annotation": {
             "name": "Tendons"
         },
         "members": [
-            "1077ad44-0d3a-40a8-9141-310dd0c36b89",
-            "48840d5b-0b73-4dde-85d9-a243a3277823",
-            "d7df6deb-b7c1-47d7-a476-6b61c4138441",
-            "6ad9d8c9-c9eb-43ff-8e60-a6733441d9b4",
-            "5cbe88c6-17fd-45d9-80f9-a82edefff4cc",
-            "495d0752-2c1c-4476-a85d-fdb39d8d5117",
-            "436023b7-88a3-4cfe-8bd0-994d2a670a57"
-        ],
-        "root": true
+            "c51f7cf9-bf2f-4f26-af3b-e97c97c15ff3",
+            "fbb4da03-793d-4b6a-99cd-b63bcf0a1ace",
+            "4804625f-1c7c-4ceb-8233-0e8db6eea6b9",
+            "aff98bee-4a94-4e1b-848a-a139cf3d2f6a",
+            "8bb491e5-9d98-4e6c-a142-6f2826b30eba",
+            "6379229f-466d-4538-940c-c3552f9bce8a",
+            "809999ba-deec-4a1f-b074-d0fc6336681d"
+        ]
     },
     {
-        "@id": "b999ca5d-fe0b-46cd-a427-7c09f8a4e39a",
+        "@id": "71967a41-d4ec-4f7a-b22a-9e401c5ca381",
         "@type": "group",
         "annotation": {
             "name": "Muscles"
         },
         "members": [
-            "c0510470-1c94-402e-b103-99ad7ca98512",
-            "0da835c2-67b4-4cbd-a08d-7cea6420c183",
-            "55f62bb6-033e-4431-b23b-5d438a2f988a",
-            "83c2dece-e8ad-4f9e-b1f5-f67f650c6437",
-            "565681ab-f785-42b1-9f7f-2c67186180f1",
-            "6b51dbee-b28c-4412-a7e9-b0614faab6cc",
-            "99e7d7e3-0775-4fba-ae96-66849c29bd49",
-            "71c4d496-b51d-44b2-99de-cd2a0c545b89",
-            "0cc2fdd0-08af-4e88-b96b-7e5166754fa8",
-            "f469ec07-7e0c-404a-b565-cea07f1c6bfb",
-            "1fc44f55-06bb-4d1b-84f0-2a6a72144566",
-            "3225ab69-55f7-48d7-8a10-ae1e5e10b1bb",
-            "ae26d332-5d1d-4e82-b1d5-5e401dc148af",
-            "0874c4a5-2bfb-417f-b692-f737ec6e3f31"
-        ],
-        "root": true
+            "3d9c03b9-3950-444e-9e55-32e14bec3160",
+            "7bb828b8-a2e0-40f7-8940-3cd7b3ac69f0",
+            "1cad82d8-c2a4-422f-8a1b-b67e3ef78bab",
+            "f71ebf85-fc01-4abf-935f-6026ec49b865",
+            "c2ee91c9-fafb-498e-af63-f63a38859a49",
+            "e79e3500-8104-42f0-bcb7-264bc2545c39",
+            "c9c862d5-9e6a-49d4-a46d-2882673a0179",
+            "366a63b4-3821-4def-a81f-d026e44fc0a8",
+            "6a3695ac-c2e5-454a-b9c1-c870b3b49850",
+            "1c65a4d4-07e7-45b2-999a-722d559e4bab",
+            "8fd6cfd2-6b77-4cbf-b001-a86424ec2b22",
+            "c61bdea0-f364-4881-923e-be10f62c60e9",
+            "524f1578-f859-4c09-8937-5cd0e91a988d",
+            "b191cb18-54c9-4e84-a809-ec8ab68fe844"
+        ]
     },
     {
-        "@id": "80390c42-4be1-461e-a0ed-b06767c987c0",
+        "@id": "8067805e-2f3f-4d6b-b4e2-1db19113b7a3",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_16_semimembranosus_muscle.vtk"
     },
     {
-        "@id": "565681ab-f785-42b1-9f7f-2c67186180f1",
+        "@id": "c2ee91c9-fafb-498e-af63-f63a38859a49",
         "@type": "structure",
         "annotation": {
             "name": "semimembranosus muscle"
         },
-        "sourceSelector": {
-            "dataSource": "80390c42-4be1-461e-a0ed-b06767c987c0"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "8067805e-2f3f-4d6b-b4e2-1db19113b7a3"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 16,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(230,124,124)"
         }
     },
     {
-        "@id": "77e4f9a9-9816-46c3-a7ba-9f7c3bc5e413",
+        "@id": "50d57310-befe-4f57-958f-dd803b2d6e26",
         "@type": "group",
         "annotation": {
             "name": "Ligaments"
         },
         "members": [
-            "92ce8170-2604-4a99-bb71-d696424c9080",
-            "c7b6cc97-4654-4535-bb94-4b09c1a61966",
-            "3ebe6b8d-42ba-45e3-9bd5-ccd2dfc63d80",
-            "0fb7d0a8-fe7c-4c9d-949a-799e2d99a783",
-            "cc77572b-dc06-4d0f-bd40-ce0ca122a177"
-        ],
-        "root": true
+            "703a9297-7846-42bf-a011-195de4772e05",
+            "5159842c-ac7a-44bb-afdb-f7e2b4ba3f75",
+            "e751e6f2-5fb6-47a0-b6a6-1b130392eb60",
+            "3f941595-fcfa-4438-bd92-a33b3bcc0e07",
+            "ddb99e74-1946-422b-8675-1398974b8752"
+        ]
     },
     {
-        "@id": "f243acfc-8375-4858-9c34-d3137a3b06e7",
+        "@id": "88fb919c-ca4c-4453-8d46-d81b01dbb705",
         "@type": "group",
         "annotation": {
             "name": "Fat"
         },
         "members": [
-            "bec1d5fe-d504-4dba-bd0b-b8203c033696"
-        ],
-        "root": true
+            "620179cd-377a-4f48-9dc9-dede3cdaddba"
+        ]
     },
     {
-        "@id": "99d3d98a-6f46-438d-9ffc-cd0b491ce2b9",
+        "@id": "4cda241b-e7bd-4752-b420-853cd26b6261",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_17_semitendinosus_muscle.vtk"
     },
     {
-        "@id": "83c2dece-e8ad-4f9e-b1f5-f67f650c6437",
+        "@id": "f71ebf85-fc01-4abf-935f-6026ec49b865",
         "@type": "structure",
         "annotation": {
             "name": "semitendinosus muscle"
         },
-        "sourceSelector": {
-            "dataSource": "99d3d98a-6f46-438d-9ffc-cd0b491ce2b9"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "4cda241b-e7bd-4752-b420-853cd26b6261"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 17,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(230,124,124)"
         }
     },
     {
-        "@id": "7c8f7a55-35f0-489b-a153-9963dfd6c961",
+        "@id": "27a915ca-0a6f-4d94-adab-6a56cd86341f",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_18_gracilis_muscle.vtk"
     },
     {
-        "@id": "0874c4a5-2bfb-417f-b692-f737ec6e3f31",
+        "@id": "b191cb18-54c9-4e84-a809-ec8ab68fe844",
         "@type": "structure",
         "annotation": {
             "name": "gracilis muscle"
         },
-        "sourceSelector": {
-            "dataSource": "7c8f7a55-35f0-489b-a153-9963dfd6c961"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "27a915ca-0a6f-4d94-adab-6a56cd86341f"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 18,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(230,124,124)"
         }
     },
     {
-        "@id": "715914bf-14eb-4813-b018-43e825aa772f",
+        "@id": "18e52267-7717-4e40-8338-fbbe4e63f203",
         "@type": "datasource",
         "mimeType": "application/octet-stream",
         "source": "../../Data/Model_19_sartorius_muscle.vtk"
     },
     {
-        "@id": "0da835c2-67b4-4cbd-a08d-7cea6420c183",
+        "@id": "7bb828b8-a2e0-40f7-8940-3cd7b3ac69f0",
         "@type": "structure",
         "annotation": {
             "name": "sartorius muscle"
         },
-        "sourceSelector": {
-            "dataSource": "715914bf-14eb-4813-b018-43e825aa772f"
-        },
+        "sourceSelector": [
+            {
+                "@type": [
+                    "selector",
+                    "geometrySelector"
+                ],
+                "dataSource": "18e52267-7717-4e40-8338-fbbe4e63f203"
+            },
+            {
+                "@type": [
+                    "selector",
+                    "labelMapSelector"
+                ],
+                "dataKey": 19,
+                "dataSource": "2891b2e3-33c8-4642-a54f-63a75e4b4503",
+                "authoritative": true
+            }
+        ],
         "renderOptions": {
             "color": "rgb(230,124,124)"
         }
